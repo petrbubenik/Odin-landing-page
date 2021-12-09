@@ -2,6 +2,7 @@
 
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 ul {
@@ -17,9 +18,8 @@ a {
 
 .header {
     background: #1F2937;
-    font-size: 18px;
     color: #F9FAF8;
-    padding: 16px;
+    padding-bottom: 16px;
 }
 
 .header .left {
@@ -83,7 +83,7 @@ a {
     justify-content: space-between;
     align-items: center;
     margin: 0 100px 100px 100px;
-    padding: 16px;
+    padding: 32px;
 }
 
 .info .box {
@@ -99,6 +99,7 @@ a {
     max-width: 150px;
     text-align: center;
     color: #1F2937;
+    font-size: 18px;
     margin-top: 5px;
 }
 
@@ -123,4 +124,59 @@ a {
     font-weight: bold;
     margin: 8px 100px 100px 100px;
     padding: 0px 32px 0px 0px;
+}
+
+.action {
+    margin: 100px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 32px;
+    color: #F9FAF8;
+}
+.action .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action .box {
+    display: flex;
+    align-items: center;
+}
+.action .container{
+    display: flex;
+    flex-direction: column;
+    flex: 3 0 0px;
+}
+
+.action .button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 26px;
+    flex: 1 0 0px;
+    padding: 16px;
+}
+
+.action button {
+    background-color: #3882F6;
+    font-family: Roboto, sans-serif;
+    color: #F9FAF8;
+    border: solid #F9FAF8;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 5px 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 32px;
+    font-size: 18px;
+}
+
+.text {
+    font-size: 18px;
 }
